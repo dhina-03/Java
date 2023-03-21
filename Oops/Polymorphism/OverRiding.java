@@ -1,0 +1,21 @@
+class Vehicle{
+    void run(){
+        System.out.println("Vehicle is running");
+    }
+}
+class Bike2 extends Vehicle{
+    void run(){
+        System.out.println("Bike is running safely");
+    }
+}
+    public class OverRiding {
+
+    public static void main(String args[]){
+        Vehicle v= new Vehicle();
+        Bike2 obj = new Bike2();
+        v.run();
+        obj.run();
+    }
+}
+
+
